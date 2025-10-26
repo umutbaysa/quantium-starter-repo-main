@@ -9,7 +9,7 @@ else
 fi
 
 # Run pytest and store exit code
-echo "🚀 Running test suite..."
+echo "Running test suite..."
 pytest --maxfail=1 --disable-warnings -q
 TEST_EXIT_CODE=$?
 
